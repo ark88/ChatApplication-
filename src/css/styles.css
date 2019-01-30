@@ -1,0 +1,36 @@
+.input-field input[type="text"]:focus + label {
+  color: #000;
+}
+
+.message-content {
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+  margin: 5px 0;
+}
+
+.message.left > .message-content {
+  text-align: left;
+  border-bottom-left-radius: 5px;
+  background: #95a5a6;
+}
+
+.message.right > .message-content {
+  text-align: right;
+  background: #009688;
+  border-bottom-right-radius: 5px;
+}
+
+.chat.row {
+  margin-bottom: 100px;
+}
+
+.input {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background: white;
+}
+/*# sourceMappingURL=styles.css.map */
